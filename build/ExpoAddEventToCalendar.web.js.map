@@ -1,0 +1,1 @@
+{"version":3,"file":"ExpoAddEventToCalendar.web.js","sourceRoot":"","sources":["../src/ExpoAddEventToCalendar.web.ts"],"names":[],"mappings":"AAAA,eAAe;IACb,IAAI,IAAI;QACN,OAAO,wBAAwB,CAAC;IAClC,CAAC;CACF,CAAC","sourcesContent":["export default {\n  get name(): string {\n    return 'ExpoAddEventToCalendar';\n  },\n};\n"]}

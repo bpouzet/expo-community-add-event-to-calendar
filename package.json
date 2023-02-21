@@ -1,0 +1,50 @@
+{
+  "name": "expo-community-add-event-to-calendar",
+  "version": "0.9.0",
+  "description": "Add event to calendar",
+  "main": "build/AddEventToCalendar.js",
+  "types": "build/AddEventToCalendar.d.ts",
+  "sideEffects": false,
+  "files": [
+    "android/*",
+    "build/*",
+    "src/*",
+    "expo-module.config.json",
+    "package.json",
+    "README.md",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-community-add-event-to-calendar",
+    "intent"
+  ],
+  "repository": "https://github.com/bpouzet/expo-community-add-event-to-calendar",
+  "bugs": {
+    "url": "https://github.com/bpouzet/expo-community-add-event-to-calendar/issues"
+  },
+  "author": "Benoit Pouzet <bpouzet@gmail.com> (https://github.com/bpouzet)",
+  "license": "MIT",
+  "homepage": "https://github.com/bpouzet/expo-community-add-event-to-calendar#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "expo-module-scripts": "^3.0.4",
+    "expo-modules-core": "^1.1.0",
+    "prettier": "^2.8.1",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "expo": "*"
+  }
+}

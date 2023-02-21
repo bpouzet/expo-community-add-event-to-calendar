@@ -1,0 +1,7 @@
+{
+  "name": "expo-community-add-event-to-calendar",
+  "platforms": ["android"],
+  "android": {
+    "modules": ["expo.modules.addeventtocalendar.AddEventToCalendarModule"]
+  }
+}
