@@ -6,11 +6,11 @@ export type Event = {
     /**
      * Date object or string representing the time when the event starts.
      */
-    startDate: string | Date;
+    startDate: number | Date;
     /**
      * Date object or string representing the time when the event ends.
      */
-    endDate: string | Date;
+    endDate: number | Date;
     /**
      * Location field of the event.
      */
@@ -33,10 +33,6 @@ export interface AddEventToCalendarResult {
      * Optional data URI that can be returned by the activity.
      */
     data?: string;
-    /**
-     * Optional extras object that can be returned by the activity.
-     */
-    extra?: object;
 }
 export declare enum ResultCode {
     /**
